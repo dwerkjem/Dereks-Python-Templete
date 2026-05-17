@@ -23,3 +23,10 @@ author_email:
 repository_url:
   type: str
   help: A project URL usually git url
+
+_tasks:
+  - command: "rm README.md"
+    when: "{{ _copier_conf.os in ['linux', 'macos'] }}"
+
+  - command: "Remove-Item README.md"
+    when: "{{ _copier_conf.os == 'windows' }}"
