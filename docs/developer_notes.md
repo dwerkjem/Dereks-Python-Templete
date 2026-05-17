@@ -20,7 +20,7 @@ Uv is a drop-in replacement for pip and can be used the same way ex:
 
 ```sh
 uv pip [pip command]
-uv pip install <python-package>
+uv pip install [python-package]
 ```
 
 #### Set Up Git Hooks

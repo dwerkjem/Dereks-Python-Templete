@@ -3,7 +3,7 @@ revision = 3
 requires-python = ">=3.13"
 
 [[package]]
-name = "bonacci"
+name = "boid"
 version = "0.0.0"
 source = { editable = "." }
 
