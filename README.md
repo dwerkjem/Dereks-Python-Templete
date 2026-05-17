@@ -4,7 +4,7 @@
 
 ### Developer Usage
 
-See [developer notes](docs/devloper_notes.md) but here is the TLDR:
+See [developer notes](docs/developer_notes.md) but here is the TLDR:
 
 Use
 
