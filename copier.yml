@@ -1,0 +1,25 @@
+project_name:
+  type: str
+  help: Human-readable project name
+  default: My App
+
+package_name:
+  type: str
+  help: Python package/module name
+  default: "{{ project_name|replace(' ', '_') }}"
+
+author_full_name:
+  type: str
+  default: Derek R. Neilson
+
+description_short:
+  type: str
+  default: A project made by Derek R. Neilson
+
+author_email:
+  type: str
+  default: derekneilson@mail.weber.edu
+
+repository_url:
+  type: str
+  help: A project URL usually git url
