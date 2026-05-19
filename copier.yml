@@ -6,7 +6,7 @@ project_name:
 package_name:
   type: str
   help: Python package/module name
-  default: "{{ project_name|replace(' ', '_') }}"
+  default: "{{ project_name|replace(' ', '_')|lower }}"
 
 author_full_name:
   type: str
